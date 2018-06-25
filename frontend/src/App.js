@@ -6,7 +6,6 @@ import { ApolloClient, createNetworkInterface } from 'apollo-client';
 import { ApolloProvider } from 'react-apollo';
 import Grid from '@material-ui/core/Grid';
 
-const target='http://tcmvm-drupal.ibi.com/web/graphql/'
 const client = new ApolloClient({
 	networkInterface: createNetworkInterface({
 		uri: target,
