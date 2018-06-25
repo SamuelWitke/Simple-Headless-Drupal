@@ -1,0 +1,29 @@
+{
+  "name": "druapl-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.2.3",
+    "@material-ui/icons": "^1.1.0",
+    "apollo-boost": "^0.1.10",
+    "apollo-client": "^1.9.3",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "material-ui": "^1.0.0-beta.47",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "react": "^16.4.1",
+    "react-apollo": "^2.1.6",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0",
+    "react-preload-apollo": "^1.0.4",
+    "react-preload-core": "^1.0.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "host=172.30.238.83 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
